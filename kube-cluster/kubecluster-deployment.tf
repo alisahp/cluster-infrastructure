@@ -3,7 +3,7 @@ provider "google" {
   project     = "${var.google_project_id}"
 }
 
-resource "google_container_cluster" "cluster_fuchicorp_com" {
+resource "google_container_cluster" "cluster_mybestsea_com" {
   name               = "${var.cluster_name}"
   network            = "default"
   subnetwork         = "default"
