@@ -1,17 +1,17 @@
 variable "cluster_name" {
-  default = "fuchicorp-cluster"
+  default = "mybestsea"
 }
 
 variable "node_count" {
-  default = "3"
+  default = "2"
 }
 
 variable "google_project_id" {
-  default = "universal-team-245120"
+  default = "deckube2019"
 }
 
 variable "service_account_path" {
-  default = "./fuchicorp-service-account.json"
+  default = "./deckube2019-846b8032b7fb.json"
 }
 
 variable "region" {
@@ -19,7 +19,7 @@ variable "region" {
 }
 
 variable "google_bucket_name" {
-  default = "fuchicorp-bucket"
+  default = "mybestsea1"
 }
 
 variable "cluster_version" {
