@@ -1,5 +1,3 @@
-# cluster-infrastructure
-
 Google Cloud Platform Kubernetes Cluster Terraform Module
 Use this deployment to easily deploy a Kubernetes cluster on Google Cloud Platform (GCP)'s Google Kubernetes Engine (GKE).
 
