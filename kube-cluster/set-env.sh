@@ -8,7 +8,7 @@ DATAFILE="$DIR/$1"
 # <ENVIRONMENT> <BUCKET> <DEPLOYMENT> <PROJECT> <CREDENTIALS>
 
 if [ ! -f "$DATAFILE" ]; then
-  echo "set-env.sh: Configuration file not found: $DATAFILE"
+  echo "setenv: Configuration file not found: $DATAFILE"
   return 1
 fi
 BUCKET=$(sed -nr 's/^google_bucket_name\s*=\s*"([^"]*)".*$/\1/p'             "$DATAFILE")
