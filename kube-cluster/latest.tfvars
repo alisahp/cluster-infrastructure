@@ -4,6 +4,6 @@ google_project_id = "deckube2019"
 
 google_email = "alisaitdr@gmail.com"
 
-cluster_version = "1.17.3-gke.4"
+cluster_version = "1.14.9-gke.23""
 
 google_bucket_name = "mybestsea1"
