@@ -3,7 +3,7 @@ provider "google" {
   project     = "${var.google_project_id}"
 }
 
-resource "google_container_cluster" {
+resource "google_container_cluster" "mybestsea" {
   name               = "${var.cluster_name}"
   network            = "default"
   subnetwork         = "default"
