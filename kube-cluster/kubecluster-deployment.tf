@@ -1,4 +1,4 @@
-provider {
+provider "google" {
   credentials = "${file("./mybestsea-service-account.json")}" #GOOGLE_CREDENTIALS to the path of a file containing the credential JSON
   project     = "${var.google_project_id}"
   region      = "us-central1"
