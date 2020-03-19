@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_container_cluster" "mybestsea" {
-  name               = "${var.cluster_name}"
+  name               = "mybestsea"
   network            = "default"
   subnetwork         = "default"
   location           = "us-central1-a"
