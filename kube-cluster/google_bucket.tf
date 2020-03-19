@@ -1,6 +1,14 @@
-resource "google_storage_bucket" "mybestsea1465" {
-  name          = "mybestsea.com"
-  location      = "us-central1"
+resource "google_storage_bucket" "mybestsea-auto-expire" {
+  name          = "auto-expiring-bucket"
+  location      = "US"
   force_destroy = true
-  bucket_policy_only = true
+
+  lifecycle_rule {
+    condition {
+      age = "7"
+    }
+    action {
+      type = "Delete"
+    }
+  }
 }
