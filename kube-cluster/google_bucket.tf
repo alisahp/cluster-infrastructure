@@ -1,5 +1,8 @@
-resource "google_storage_bucket" "isparta1455_bucket" {
-  name          = "${var.google_bucket_name}"
-  storage_class = "COLDLINE"
-  location      = "${var.region}"
+resource "google_storage_bucket" "mybestsea1465" {
+  name          = "mybestsea.com"
+  location      = "us-central1"
+  force_destroy = true
+
+  bucket_policy_only = true
+  }
 }
