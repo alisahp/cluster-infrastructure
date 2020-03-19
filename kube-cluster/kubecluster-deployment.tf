@@ -7,6 +7,8 @@ resource "google_container_cluster" "mybestsea" {
   name               = "mybestsea"
   network            = "default"
   subnetwork         = "default"
+  region             = "us-central1"
+  zone               = "us-central1-a
   location           = "us-central1-a"
   min_master_version = "${var.cluster_version}"
   initial_node_count = "${var.node_count}"
