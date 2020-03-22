@@ -3,15 +3,15 @@ variable "cluster_name" {
 }
 
 variable "node_count" {
-  default = "2"
+  default = "3"
 }
 
 variable "google_project_id" {
-  default = "deckube2019"
+  default = "mybestsea"
 }
 
 variable "service_account_path" {
-  default = "./deckube2019-846b8032b7fb.json"
+  default = "./mybestsea-service-account.json"
 }
 
 variable "region" {
@@ -23,5 +23,5 @@ variable "google_bucket_name" {
 }
 
 variable "cluster_version" {
-  default = "1.13.11-gke.9"
+  default = "1.14.10-gke.27"
 }
