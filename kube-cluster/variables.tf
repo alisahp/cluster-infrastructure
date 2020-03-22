@@ -19,7 +19,7 @@ variable "region" {
 }
 
 variable "google_bucket_name" {
-  default = "mybestsea1"
+  default = "mybestsea"
 }
 
 variable "cluster_version" {
